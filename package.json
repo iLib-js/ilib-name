@@ -109,10 +109,10 @@
         "@log4js-node/log4js-api": "^1.0.2",
         "ilib-common": "^1.1.2",
         "ilib-ctype": "file:../ilib-ctype/ilib-ctype-1.1.0.tgz",
+        "ilib-env": "^1.3.2",
         "ilib-istring": "file:../ilib-istring/ilib-istring-1.0.0.tgz",
         "ilib-locale": "^1.2.2",
         "ilib-localedata": "^1.3.2",
-        "ilib-localematcher": "^1.2.2",
         "json5": "^2.2.1"
     }
 }
