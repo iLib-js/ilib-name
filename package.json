@@ -69,7 +69,7 @@
         "test:web": "LANG=en_US.UTF8 npm run build:test ; open-cli ./test/testSuite.html ; open-cli ./test/testSuite.html -- firefox",
         "test:all": "npm-run-all test:cli test:web",
         "debug": "npm run build:dev ; node --inspect-brk test/testSuite.js",
-        "clean": "git clean -f -d src test; rm -rf lib",
+        "clean": "git clean -f -d src test; rm -rf lib assembled *.tgz assembled locales.json",
         "doc": "mkdir -p docs ; jsdoc2md -c jsdoc.json --separators --source src/* -m table > docs/ilibCommon.md ; npm run doc:html",
         "doc:html": "jsdoc -c jsdoc.json"
     },
