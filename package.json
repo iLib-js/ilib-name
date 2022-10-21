@@ -70,7 +70,7 @@
         "test:all": "npm-run-all test:cli test:web",
         "debug": "npm run build:dev ; node --inspect-brk test/testSuite.js",
         "clean": "git clean -f -d src test; rm -rf lib assembled *.tgz assembled locales.json",
-        "doc": "mkdir -p docs ; jsdoc2md -c jsdoc.json --separators --source src/* -m table > docs/ilibCommon.md ; npm run doc:html",
+        "doc": "mkdir -p docs ; jsdoc2md -c jsdoc.json --separators --source src/* -m table > docs/ilibName.md ; npm run doc:html",
         "doc:html": "jsdoc -c jsdoc.json"
     },
     "devDependencies": {
@@ -110,7 +110,7 @@
         "ilib-common": "^1.1.2",
         "ilib-ctype": "^1.1.0",
         "ilib-env": "^1.3.2",
-        "ilib-istring": "^1.0.0",
+        "ilib-istring": "^1.0.1",
         "ilib-locale": "^1.2.2",
         "ilib-localedata": "^1.4.1",
         "json5": "^2.2.1"
