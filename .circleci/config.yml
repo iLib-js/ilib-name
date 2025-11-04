@@ -27,6 +27,8 @@ workflows:
   test-all-node-versions:
     jobs:
       - test:
+          docker_image: cimg/node:12.22
+      - test:
           docker_image: cimg/node:14.21
       - test:
           docker_image: cimg/node:16.20
